@@ -1,12 +1,39 @@
 .SmallCard {
     background-color: #f0f3fa;
     width: 220px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
 }
 
 .SmallCard .cardHeader {
-
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .SmallCard .cardMain {
-    
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.SmallCard .cardMain .number {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.SmallCard .cardMain .presentage {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bolder;
+    align-self: flex-end;
 }

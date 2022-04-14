@@ -9,8 +9,8 @@ const SmallCard = ({data, logo}) => {
                 <img src={logo} alt="" />
             </div>
             <div className="cardMain">
-                <p>{data.todayNumber}</p>
-                <div>
+                <p className="number">{data.todayNumber}</p>
+                <div className="presentage">
                     <img src={vote} alt="" />
                     <p>{data.todayStatus[0]}%</p>
                 </div>
