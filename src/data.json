@@ -1,0 +1,84 @@
+{
+    "user": {
+        "darkMod": true,
+        "totoaFollowers": "23,004"
+    },
+    "data": [
+        {
+            "platform": "facebook",
+            "username": "@nathanf",
+            "logo": "./images/icon-facebook.svg",
+            "population": [1987, "followers"],
+            "todayStatus": [12, "up"],
+            "todayOverview": [
+                {
+                    "type": "Page Views",
+                    "todayNumber": 87,
+                    "todayStatus": [3, "up"]
+                },
+                {
+                    "type": "Likes",
+                    "todayNumber": 52,
+                    "todayStatus": [2, "down"]
+                }
+            ]
+        },
+        {
+            "platform": "twitter",
+            "username": "@nathanf",
+            "logo": "./images/icon-twitter.svg",
+            "population": [1044, "followers"],
+            "todayStatus": [99, "up"],
+            "todayOverview": [
+                {
+                    "type": "Retweets",
+                    "todayNumber": 117,
+                    "todayStatus": [303, "up"]
+                },
+                {
+                    "type": "Likes",
+                    "todayNumber": 507,
+                    "todayStatus": [553, "up"]
+                }
+            ]
+        }, 
+        {
+            "platform": "instagram",
+            "username": "@realnathanf",
+            "logo": "./images/icon-instagram.svg",
+            "population": ["11k", "followers"],
+            "todayStatus": [1099, "up"],
+            "todayOverview": [
+                {
+                    "type": "Likes",
+                    "todayNumber": 5462,
+                    "todayStatus": [2257, "up"]
+                },
+                {
+                    "type": "Profile Views",
+                    "todayNumber": "52k",
+                    "todayStatus": [1375, "up"]
+                }
+            ]
+        },
+        {
+            "platform": "youtube",
+            "username": "Nathan F.",
+            "logo": "./images/icon-youtube.svg",
+            "population": [8239, "followers"],
+            "todayStatus": [144, "down"],
+            "todayOverview": [
+                {
+                    "type": "Likes",
+                    "todayNumber": 107,
+                    "todayStatus": [19, "down"]
+                },
+                {
+                    "type": "Total Views",
+                    "todayNumber": 1407,
+                    "todayStatus": [12, "down"]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+.Maincard { 
+    background-color: #f0f3fa;
+    max-width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid rgb(3, 91, 255);
+}
+
+.Maincard .cardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #5b5f6a;
+}
+
+.Maincard .cardHeader img {
+    margin-right: 6px;
+}
+
+.Maincard .cardMain {
+    margin: 15px 0;
+}
+
+.Maincard .cardMain .population {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #1d2029;
+}
+
+.Maincard .cardMain .title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 11px;
+    color: #6c6f78;
+}
+
+.Maincard .cardFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #4a9d89;
+}
+
+.Maincard .cardFooter .footerNum {
+    margin: 0 4px;
+}
+
+.Maincard.down .cardFooter {
+    color: #c1465a;
+}
+
+body.dark .Maincard {
+    background-color: #252b43;
+}
+
+body.dark .Maincard .cardMain .population {
+    color: #ffffff;
+}
+
+body.dark .Maincard .cardHeader {
+    color: #8f98b9;
+}
