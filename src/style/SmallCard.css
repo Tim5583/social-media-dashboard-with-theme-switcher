@@ -36,4 +36,25 @@
     font-size: 12px;
     font-weight: bolder;
     align-self: flex-end;
+    color: #4a9d89;
+}
+
+.SmallCard .cardMain .presentage p {
+    margin-left: 5px;
+}
+
+.SmallCard.down .cardMain .presentage {
+    color: #c1465a;
+}
+
+body.dark .SmallCard {
+    background-color: #252b43;
+}
+
+body.dark .cardMain {
+    color: #ffffff;
+}
+
+body.dark .SmallCard .cardHeader p {
+    color: #8f98b9;
 }

@@ -1,3 +1,17 @@
-.App {
-  padding-bottom: 4rem;
+.mainCardsContainer {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.subCardContainer {
+  max-width: 1000px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }

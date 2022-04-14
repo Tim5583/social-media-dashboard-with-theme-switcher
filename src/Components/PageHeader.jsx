@@ -1,6 +1,14 @@
 import "../style/PageHeader.css";
+import { useRef, useEffect } from "react";
 
 const PageHeader = (props) => {
+    
+    const themeChanger = useRef();
+
+    useEffect(() => {
+        console.log(themeChanger.current)
+    })
+
     return ( 
         <header className="header">
             <div className="headerHeader">
@@ -9,7 +17,7 @@ const PageHeader = (props) => {
             </div>
             <div className="darkmod-switch">
                 <span>Dark Mode</span>
-                <input type="checkbox" className="toggle" id="themeSwitch" />
+                <input type="checkbox" className="toggle" id="themeSwitch" ref={themeChanger}/>
                 <label htmlFor="themeSwitch" className="label">
                     <div className="ball"></div>
                 </label>

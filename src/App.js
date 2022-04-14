@@ -8,8 +8,12 @@ function App() {
   return (
     <div className="App">
        <PageHeader totalFollowers={data.user.totoaFollowers}/>
-       {data.data.map(item => <MainCard data={item}/>)}
-       <SmallCard data={data.data[0].todayOverview[0]} logo={data.data[0].logo}/>
+       <div className='mainCardsContainer'>
+        {data.data.map(item => <MainCard data={item} key={Math.floor(Math.random() * 999999999999999999999999999)}/>)}
+       </div>
+       <div className='subCardContainer'>
+        {data.data.map(item => item.todayOverview.map(item1 => <SmallCard data={item1} logo={item.logo} key={Math.floor(Math.random() * 999999999999999999999999999)}/>))}
+       </div>
     </div>
   );
 }

@@ -2,8 +2,15 @@ import "../style/SmallCard.css";
 
 const SmallCard = ({data, logo}) => {
     const vote = `./images/icon-${data.todayStatus[1]}.svg`
+    let classes = "SmallCard ";
+
+    if (data.todayStatus[1] === "down") {
+        classes += "down";
+    }
+
+
     return ( 
-        <div className="SmallCard">
+        <div className={classes}>
             <div className="cardHeader">
                 <p>{data.type}</p>
                 <img src={logo} alt="" />
