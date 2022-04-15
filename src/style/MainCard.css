@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-top: 4px solid rgb(3, 91, 255);
+    border-top: 4px solid #c30028;
 }
 
 .Maincard .cardHeader {
