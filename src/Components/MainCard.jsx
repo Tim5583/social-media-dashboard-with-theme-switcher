@@ -9,11 +9,11 @@ const MainCard = ({data}) => {
     }
 
     const style = {
-        borderColor: "#1ba2f3"
+        borderColor: [data.platform === "facebook" ? "#168ff8" : data.platform === "twitter" ? "#1da1f3" : data.platform === "instagram" ? "#f19878" : "#c30028"]
     }
 
     return ( 
-        <div className={helperClasses} style={data.platform === "facebook" ? style: data.platform === "twitter" ? style : null}>
+        <div className={helperClasses} style={style}>
             <div className="cardHeader">
                 <img src={data.logo} alt={`${data.platform} logo`} />
                 <p>{data.username}</p>

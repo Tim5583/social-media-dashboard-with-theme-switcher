@@ -57,7 +57,7 @@ body.dark .header .headerHeader .headerHeaderH1 {
     border-radius: 50%;
     position: absolute;
     top: 50%;
-    transform: translateY(-54%);
+    transform: translateY(-50%);
     right: 2px;
 }
 
