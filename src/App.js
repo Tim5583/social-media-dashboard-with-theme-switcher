@@ -11,6 +11,7 @@ function App() {
        <div className='mainCardsContainer'>
         {data.data.map(item => <MainCard data={item} key={Math.floor(Math.random() * 999999999999999999999999999)}/>)}
        </div>
+       <h2 className='subHeader'>OverView - Today</h2>
        <div className='subCardContainer'>
         {data.data.map(item => item.todayOverview.map(item1 => <SmallCard data={item1} logo={item.logo} key={Math.floor(Math.random() * 999999999999999999999999999)}/>))}
        </div>

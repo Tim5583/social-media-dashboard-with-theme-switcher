@@ -11,6 +11,11 @@
     border-top: 4px solid #c30028;
 }
 
+.Maincard:hover {
+    background-color: #e1e3f0;
+    cursor: pointer;
+}
+
 .Maincard .cardHeader {
     display: flex;
     align-items: center;
@@ -60,6 +65,10 @@
 
 body.dark .Maincard {
     background-color: #252b43;
+}
+
+body.dark .Maincard:hover {
+    background-color: #333a56;
 }
 
 body.dark .Maincard .cardMain .population {

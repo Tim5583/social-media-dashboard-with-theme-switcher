@@ -1,6 +1,6 @@
 .mainCardsContainer {
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto 20px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -14,4 +14,12 @@
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
+}
+
+.subHeader {
+  color: #676976;
+}
+
+body.dark .subHeader {
+  color: #feffff;
 }
